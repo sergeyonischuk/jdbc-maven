@@ -38,7 +38,6 @@ public class DatabaseQueryService {
             workers.add(new Worker(id, name, birthday, level, salaryMonth));
         }
         connection.close();
-        st.close();
         return workers;
     }
 
